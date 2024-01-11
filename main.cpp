@@ -193,7 +193,7 @@ void PrintTheQuestion(stQuizz &Quizz, short QuestionNumber)
     cout << "\n_________" << endl;
 }
 
-CorrectTheQuestionAnswer(stQuizz &Quizz, short QuestionNumber)\
+void CorrectTheQuestionAnswer(stQuizz &Quizz, short QuestionNumber)\
 {
     if(Quizz.QuestionList[QuestionNumber].PlayerAnswer != Quizz.QuestionList[QuestionNumber].CorrectAnswer)
         {
